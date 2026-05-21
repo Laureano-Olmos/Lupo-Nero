@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de escritura personal y plataforma de lectura de historias.">
+    <title>Crónicas del Lobo Negro | Historias y Relatos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Crónicas del Lobo Negro</h1>
+        <p class="subtitle">Relatos olvidados, recuperados de la cueva de la bestia</p>
+        <p class="subtitle">No hay salvación. Solo ruinas.</p>
+        <p class="subtitle">— I.V. Lupo Nero</p>
+    </header>
+
+    <main>
+        <div class="filters" id="genre-filters">
+            <button class="filter-btn active" data-genre="todos">Todos</button>
+            <button class="filter-btn" data-genre="oscuro">Oscuro</button>
+            <button class="filter-btn" data-genre="distopia">Distopía</button>
+            <button class="filter-btn" data-genre="misterio">Misterio</button>
+            <button class="filter-btn" data-genre="sobrenatural">Sobrenatural</button>
+            <button class="filter-btn" data-genre="existencial">Existencial</button>
+        </div>
+
+        <section class="stories-grid" id="stories-container">
+            <!-- Las historias se cargarán aquí dinámicamente vía script.js -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 I.V. Lupo Nero. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
