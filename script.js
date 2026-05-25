@@ -6,15 +6,21 @@ const storiesData = [
     {
         id: "odio-los-cines",
         title: "Odio los cines",
-        genre: "existencial", // Debe coincidir (en minúsculas) con el data-genre de index.html
+        genre: "existencial",
         snippet: "Lo habia olvidado: odio los cines. Es mucho más cómodo ver películas en casa puesto que si requeris, por cualquier motivo, dejar de ver temporalmente la película podes pausarla...",
         file: "historias/odio-los-cines.html"
     },{
         id: "contrabando-de-figus",
         title: "Contrabando",
-        genre: "distopia", // Debe coincidir (en minúsculas) con el data-genre de index.html
+        genre: "distopia", 
         snippet: "Sokolov se despertó en aquel cuarto al que llamaba hogar. La vida en el metro tras la guerra nuclear nunca fue sencilla ni llena de lujos, para absolutamente nadie...",
         file: "historias/contrabando-de-figus.html"
+    },{
+        id: "tenemos-trato",
+        title: "¿Tenemos trato?",
+        genre: "sobrenatural",
+        snippet: "Me arrepiento. No sé en que momento crei que seria buena idea. ¿Desde cuando aceptar tratos sin leer la letra chica es buena idea? Parece que nací ayer...",
+        file: "historias/tenemos-trato.html"
     }
 ];
 
